@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 3;
+        int verificationNum = 3;
         boolean prost = true;
-        for (int i = 2; i < a; i++) {
-            if (a % i == 0)
+        for (int i = 2; i < verificationNum; i++) {
+            if (verificationNum % i == 0)
                 prost = false;
         }
-        if (prost) System.out.println("простое " + a);
-        else System.out.println("составное " + a);
+        if (prost) System.out.println("Число " + verificationNum + " является простым");
+        else System.out.println("Число " + verificationNum + " является составным");
     }
 }
